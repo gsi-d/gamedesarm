@@ -20,6 +20,7 @@ public class Main {
         } catch (BombaException be) {
             be.printStackTrace();
             System.out.println("A bomba explodiu.\nO jogo terminou.");
+            new SomExemplo();
         }
     }
 
